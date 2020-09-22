@@ -1,13 +1,15 @@
 
 /***home***/
 body{
-background-color: #292626;
+	background-color: #292626;
+	font-family: roboto condensed;
+	color: #FBF8F8;
 }
 
 nav{
     border-style: solid;
     margin-top: 5%;
-    background-color: white;
+    background-color: #FBF8F8;
 }
 
 a{
