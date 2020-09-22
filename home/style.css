@@ -23,13 +23,38 @@ a{
     padding: 120px ;
     text-align: center;
 }
-  /*******bas de page******/
+
+/*********photo**************/
+.ContenuPhoto{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px; 
+  position: relative;
+  top: 20px;
+  right: 15%; 
+  color: #292626;
+}
+
+.image{
+  height: 100%;
+  width: 100%;
+  box-shadow: 8px 8px 12px black,  -8px -8px 12px black ;
+}
+
+.lien{
+  padding: 20px 20px;
+  cursor: pointer;
+  box-shadow: 8px 8px 12px black;
+}
+
+/*******bas de page******/
 
 div{
   border-style: solid;
   color: #FBF8F8;
   position: absolute;
-  top: 90%;
+  top: 140%;
   margin-left: 33%;
   padding: 20px 20px 20px 20px;
 }
