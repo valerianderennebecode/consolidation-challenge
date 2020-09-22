@@ -1,0 +1,18 @@
+
+/***home***/
+body{
+background-color: #292626;
+}
+
+nav{
+    border-style: solid;
+    margin-top: 5%;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    padding: 120px ;
+    text-align: center;
+}
+  /*************/
