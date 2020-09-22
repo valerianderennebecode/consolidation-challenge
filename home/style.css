@@ -15,4 +15,17 @@ a{
     padding: 120px ;
     text-align: center;
 }
-  /*************/
+  /*******bas de page******/
+
+div{
+  border-style: solid;
+  color: #FBF8F8;
+  position: absolute;
+  top: 81%;
+  margin-left: 33%;
+  padding: 20px 20px 20px 20px;
+}
+
+div p{
+  color: #FBF8F8;
+}
