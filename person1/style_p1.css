@@ -27,6 +27,7 @@ body {
       margin-bottom: 120px;
       text-align: center;
       font-size: 60px;
+      font-family: roboto condensed;
   }
   /* Title */
 
@@ -39,7 +40,7 @@ body {
   
   /* Position the image container (needed to position the left and right arrows) */
  .gallery {
-    position: relative;
+ 	margin-left:40pt;
   }
   
   /* Hide the images by default */
@@ -52,22 +53,6 @@ body {
     cursor: pointer;
   }
   
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
   
   /* Position the "next button" to the right */
   .next {
@@ -125,11 +110,12 @@ body {
 
   /* Bio */
   .bio {
-      background-color: rgba(58, 58, 58, 0.3);
+      background-color: #77C9CE;
       padding: 30px 50px;
       margin-top: 50px;
       margin-bottom: 50px;
       font-size: 18px;
+      color:#FBF8F8;
   }
   /* End of Bio */
 
@@ -144,7 +130,7 @@ body {
 .inspo,
 .accomplishments {
     background-color: rgba(58, 58, 58, 0.3);
-    color: #77C9Ce;
+    color: #292626;
     padding: 25px;
     box-sizing: border-box;
     flex-basis: 45%;
@@ -152,15 +138,16 @@ body {
 
   .inspo h2,
   .accomplishments h2 {
-      font-size: 20px;
+      font-size: 25px;
       margin: 0;
+      font-family: roboto condensed;
   }
 
   .accomplishments li {
     list-style: none;
   }
   .accomplishments a {
-      color: #77C9Ce;
+      color: #292626;
       text-decoration: none;      
   }
 
@@ -173,7 +160,7 @@ body {
 /* Start of Social Media */
 
   .social-media {
-    background-color: rgba(58, 58, 58, 0.3);
+    background-color: #77C9CE;
     margin-top: 25px;
     margin-bottom: 25px;  
     display: flex;
@@ -224,18 +211,24 @@ body {
 
 .author h2 {
     margin: 0;
+    color: #292626;
+    font-family: roboto condensed;
 }
 
-.author img,
+.author img {
+	height: 70px;
+	border: 1px solid white;
+
+}
 .author p {
     border: 1px solid white;
     height: 30px;
-    
+    color: #292626;
 }
 
 .author a {
     text-decoration: none;
-    color: #77C9CE;
+    color: #292626;
     font-family: inherit;
     
 }
