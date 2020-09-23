@@ -174,8 +174,14 @@ body {
       list-style: none;
       font-size: 40px;
       float: left;
+      margin-left: 20%;
   }
 /* End of Social media*/  
+/**img seb**/
+.imgSeb{
+  width: 20%;
+  height: 20%;
+}
 
   /* --- Clear floats ---*/
 .clearfix:before,
