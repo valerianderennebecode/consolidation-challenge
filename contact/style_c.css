@@ -2,6 +2,10 @@ body {
 	background-color: #292626;
 	font-family: roboto condensed;
 	color: #FBF8F8;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-around;
 }
 
 nav {
@@ -11,7 +15,6 @@ nav {
 }
 a {
     text-decoration: none;
-    padding: 120px ;
     text-align: center;
 }
 
@@ -25,53 +28,84 @@ h1 {
 	text-align: center;
 }
 
+img {
+	max-width: 100%;
+}
+
+/*contact form*/
+
+form {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  font-family: roboto condensed;
-  font-size: 15px;
+	width: 100%;
+  	padding: 12px;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+  	font-family: roboto condensed;
+  	font-size: 15px;
 
 }
 
 input[type=submit] {
-  background-color: #77C9CE;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: roboto condensed;
-  font-size: 20px;
+ 	background-color: #77C9CE;
+  	color: white;
+  	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+  	font-family: roboto condensed;
+  	font-size: 20px;
 
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
-  font-family: roboto condensed;
+  	background-color: grey;
+  	font-family: roboto condensed;
 
 }
 
-.container {
-  border-radius: 5px;
-  background-color: #FBF8F8;
-  padding: 100px;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 5%;
-  font-family: roboto condensed;
-
-}
 
 label {
 	color: #77C9CE;
 	font-size: 20px;
 	font-weight: bold;
 	font-family: roboto condensed;
+}
 
+
+/*flexbox*/
+
+.nav {
+	flex-basis: 100%
+}
+
+.formulaire {
+	border-radius: 5px;
+	background-color: #FBF8F8;
+	font-family: roboto condensed;
+	flex: 25%;
+	margin-left: 100px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.droite {
+	flex: 25%;
+	margin-right: 100px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	flex: 100%
 }
