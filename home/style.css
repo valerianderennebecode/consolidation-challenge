@@ -25,35 +25,49 @@ a{
 }
 
 /*********photo 50 CENT **************/
-.container {
-  position: relative;
-  width: 30%;
-  top: 30px;
-  right: 20%;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color:  #292626;
+  padding: 50px;
+  margin-bottom: 90px;
+  margin-left: 80px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  margin-right: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
-.image {
-  display: block;
-  width: 80%;
-  height: 80%;
-  box-shadow: 8px 18px 12px black,  -8px -18px 12px black ;
+.container {
+  position: relative;
+  width: 100%;
+}
+
+img{
+    height: 80%; 
+    width: 80%;
+    box-shadow: 8px 18px 12px #292626,  -8px -18px 12px #292626;
 }
 
 .overlay {
   position: absolute;
-  top: 1px;
-  right: 0;
-  height: 80%;
-  width: 90%;
-  opacity: 0;
-  transition: .15s ease ;
-  background-color: #292626; 
- 
+  bottom: 70%;
+  left: 0;
+  right: 50px;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 80%;
+  height:0;
+  transition: .5s ease;
 }
 
-
 .container:hover .overlay {
-  opacity: 1.5;
+  bottom: 0;
+  height: 100%;
 }
 
 .text {
@@ -61,81 +75,14 @@ a{
   font-size: 20px;
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
-/*****contenaire2 ****/
-.container2{
-  position: relative;
-  width: 30%;
-  bottom: 228px;
-  left: 25%;
-}
 
-.image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  box-shadow: 8px 8px 12px black,  -8px -8px 12px black ;
-}
-
-.overlay2 {
-position: absolute;
-top: 0px;
-right: 0%;
-height: 82%;
-width: 90%;
-opacity: 0;
-transition: .15s ease;
-background-color: #292626; 
-}
-
-.container2:hover .overlay2 {
-opacity: 1.5;
-}
-
-.text2 {
-color: white;
-font-size: 20px;
-position: absolute;
-top: 45%;
-left: 20%;
--webkit-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-text-align: center;
-}
-
-/*****contenaire3 ****/
-.container3{
-position: relative;
-width: 30%;
-bottom: 210px;
-margin-left: 13%;
-}
-
-.overlay3 {
-position: absolute;
-top: 0;
-right: 0%;
-height: 82%;
-width: 90%;
-opacity: 0;
-transition: .15s ease;
-background-color: #292626;
-}
-
-.container3:hover .overlay3 {
-  opacity: 1.5;
-  }
-
-
-
-/*****contenaire4****/
 
 /*******bas de page******/
 
