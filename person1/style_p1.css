@@ -31,6 +31,10 @@ body {
 
   /* Header */ 
 
+a, a:hover, a:active {
+    color:#77C9CE;
+}
+
 .img-container {
     background-color: rgba(227, 179, 57, 0.3); 
     background-image:url(img/back.png);
@@ -241,14 +245,14 @@ img {
 
   /* Bio */
   .bio {
-      background-color: #77C9CE;
+      /*background-color: #77C9CE;*/
       padding: 30px 50px;
       margin-top: 50px;
       margin-bottom: 50px;
       font-size: 18px;
       color:#FBF8F8;
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 10pt;
+      margin-right: 10pt;
   }
   /* End of Bio */
 
@@ -257,10 +261,11 @@ img {
       padding: 30px 50px;
       margin-top: 50px;
       margin-bottom: 50px;
-      margin-left: 200px;
-      margin-right: 200px;
-      font-size: 18px;
+      margin-left: 220px;
+      margin-right: 220px;
+      font-size: 30px;
       color:#FBF8F8;
+      font-family: roboto condensed;
     }
 
 /* Start of Container2 */
@@ -268,12 +273,13 @@ img {
  .container2 {
      display: flex;
      justify-content: space-between;
+     margin-top: 5%;
  }
   
 .inspo,
 .accomplishments {
-    background-color: #FBF8F8;
-    color: #292626;
+    /*background-color: #FBF8F8;*/
+    color: #FBF8F8;
     padding: 25px;
     box-sizing: border-box;
     flex-basis: 45%;
@@ -304,11 +310,12 @@ img {
 /* Start of Social Media */
 
   .social-media {
-    background-color: #77C9CE;
-    margin-top: 25px;
+    /*background-color: #77C9CE;*/
+    margin-top: 50px;
     margin-bottom: 25px;  
     display: flex;
     justify-content: space-between;
+    color:#77C9CE;;
   }
 
   .social-media-childs {
@@ -322,7 +329,8 @@ img {
   }
 
   .social-media li a {
-      color: #FBF8F8;
+      color:#77C9CE;;
+
   }
 /* End of Social media*/  
 
@@ -340,6 +348,8 @@ img {
     padding: 15px;
     margin-top: 25px;
     margin-bottom: 25px;
+    border: 1px solid #FBF8F8;
+
 }
 
 .author-info {
@@ -365,7 +375,6 @@ img {
 
 }
 .author p {
-    border: 1px solid white;
     height: 30px;
     color: #FBF8F8;
 }
