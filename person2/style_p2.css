@@ -1,0 +1,321 @@
+/* Color Pallete 
+White : #FBF8F8
+Black : #292626
+Blue : #77C9CE */
+
+body {
+    background-color: #292626;
+    color: #77C9CE; 
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    margin: 0; /*why it did not apllied to h2 in container2?*/
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+      background-color: #FBF8F8;
+      border: 1px solid white;
+      margin: 30px;
+      padding: 30px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+
+  /*****nav nav*****/
+/*  H E A D E R  */
+
+.img-container {
+  background-color: #292626; /**Get an image */
+  background-image: url(img/50-cent-promo.jpg);
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.inner-container-nav {
+  flex: 1;
+  text-align: center;  
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inner-container-title {
+  flex: 1;
+  text-align: center; /*try align left*/
+  width: 100%;
+  color: rgba(227, 179, 57, 0.9);
+  height: auto;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container h1 {
+  font-size: 6em; /*consider 6em*/
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.15em;
+  flex: 1;
+  transition: font-size 0.2s ease-out;
+}
+
+.img-container h1:hover {
+  font-size: 7em;
+  color: #f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
+  transition: font-size 0.2s ease-in, color 0.2s ease-in, font-family 0.2s ease-in;
+}
+
+.img-container h2 {
+  margin-top: -2px;
+  padding: 3px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  flex: 1;
+}
+
+.img-container a {
+  margin-top: 20px;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.btn {
+  display: inline-block;
+  width: 12%;
+  padding: 10px;
+  color: rgba(227, 179, 57, 0.3);
+  border: 2px solid rgba(227, 179, 57, 0.3);
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.btn:hover, btn:active {
+  background-color: rgba(227, 179, 57, 0.9);
+  color: #000;
+  transition: background-color  0.3s ease-in, color 0.3s ease-in;
+}
+/***** end nav nav*****/
+
+  /* Gallery Styling*/
+
+  img {
+    vertical-align: middle;
+    box-shadow: 8px 8px 12px black,  -8px -8px 12px black;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+ .gallery {
+    position: relative;
+    padding: 10px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  /* Gallery Styling Ends*/
+
+  /* Bio */
+  .bio {
+      background-color: #292626;
+      padding: 25px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 8px 8px 10px black,  -8px -8px 10px black;
+  }
+  /* End of Bio */
+
+/* Container2*/
+
+ .container2 {
+     margin-right: -20px;
+ }
+  
+.inspo,
+.accomplishments {
+    background-color: #292626;
+    color: #77C9Ce;
+    float: left;
+    width: 47%;
+    padding: 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black,  -8px -8px 10px black;
+  }
+
+  .inspo h2,
+  .accomplishments h2 {
+      font-size: 20px;
+      margin: 0;
+  }
+
+  .accomplishments li {
+    list-style: none;
+  }
+  .accomplishments a {
+      color: #77C9Ce;
+      text-decoration: none;      
+  }
+
+  .accomplishments a:hover {
+      color: #FBF8F8;
+  }
+/* End of container2*/
+
+
+/* Social media */
+  .social-media {
+    background-color: #292626;
+    width: 100%;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black,  -8px -8px 10px black;
+  }
+  .social-media li {
+      list-style: none;
+      font-size: 40px;
+      float: left;
+      margin-left: 20%;
+  }
+
+
+.fa-facebook {
+  background: white;
+  border-radius: 80%;
+  color: rgb(23, 23, 207);
+  box-shadow: 8px 8px 10px  rgb(23, 23, 207),  -8px -8px 10px  rgb(23, 23, 207);
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 80%;
+  box-shadow: 8px 8px 10px  #55ACEE,  -8px -8px 10px  #55ACEE;
+}
+
+.fa-linkedin{
+  background: white;
+  color: #007bb5;
+  border-radius: 80%;
+  box-shadow: 8px 8px 10px  #007bb5,  -8px -8px 10px  #007bb5;
+}
+  
+
+/* End of Social media*/  
+/**img seb**/
+.imgSeb{
+  width: 20%;
+  height: 20%;
+}
+
+  /* --- Clear floats ---*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+/* End of Clear floats */
