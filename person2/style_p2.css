@@ -72,7 +72,7 @@ body {
 
 .img-container h1:hover {
   font-size: 7em;
-  color: #000;
+  color: #f2f2f2;
   font-family: 'Times New Roman', Times, serif;
   transition: font-size 0.2s ease-in, color 0.2s ease-in, font-family 0.2s ease-in;
 }
