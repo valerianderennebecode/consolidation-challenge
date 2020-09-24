@@ -31,7 +31,8 @@ body {
 /*  H E A D E R  */
 
 .img-container {
-  background-color: rgba(227, 179, 57, 0.3); /**Get an image */
+  background-color: #292626; /**Get an image */
+  background-image: url(img/50-cent-promo.jpg);
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,6 +125,7 @@ body {
   /* Position the image container (needed to position the left and right arrows) */
  .gallery {
     position: relative;
+    padding: 10px;
   }
   
   /* Hide the images by default */
@@ -208,10 +210,12 @@ body {
 
   /* Bio */
   .bio {
-      background-color: blueviolet;
+      background-color: #292626;
       padding: 25px;
       margin-top: 25px;
       margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 8px 8px 10px black,  -8px -8px 10px black;
   }
   /* End of Bio */
 
@@ -223,12 +227,14 @@ body {
   
 .inspo,
 .accomplishments {
-    background-color: blueviolet;
+    background-color: #292626;
     color: #77C9Ce;
     float: left;
     width: 47%;
     padding: 25px;
     margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black,  -8px -8px 10px black;
   }
 
   .inspo h2,
@@ -253,11 +259,13 @@ body {
 
 /* Social media */
   .social-media {
-    background-color: blueviolet;
+    background-color: #292626;
     width: 100%;
     padding: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black,  -8px -8px 10px black;
   }
   .social-media li {
       list-style: none;
@@ -265,6 +273,30 @@ body {
       float: left;
       margin-left: 20%;
   }
+
+
+.fa-facebook {
+  background: white;
+  border-radius: 80%;
+  color: rgb(23, 23, 207);
+  box-shadow: 8px 8px 10px  rgb(23, 23, 207),  -8px -8px 10px  rgb(23, 23, 207);
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 80%;
+  box-shadow: 8px 8px 10px  #55ACEE,  -8px -8px 10px  #55ACEE;
+}
+
+.fa-linkedin{
+  background: white;
+  color: #007bb5;
+  border-radius: 80%;
+  box-shadow: 8px 8px 10px  #007bb5,  -8px -8px 10px  #007bb5;
+}
+  
+
 /* End of Social media*/  
 /**img seb**/
 .imgSeb{
